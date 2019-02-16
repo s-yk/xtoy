@@ -1,0 +1,10 @@
+{
+  "name": "ytox",
+  "version": "1.0.0",
+  "description": "yaml to xml",
+  "main": "index.js",
+  "repository": "https://github.com/s-yk/ytox.git",
+  "author": "s-yk <sonic_cave@hotmail.co.jp>",
+  "license": "Apache-2.0",
+  "private": true
+}
