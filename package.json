@@ -8,7 +8,7 @@
   },
   "repository": "https://github.com/s-yk/xtoy.git",
   "author": "s-yk <sonic_cave@hotmail.co.jp>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "cac": "^6.4.2",
