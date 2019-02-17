@@ -4,13 +4,14 @@
   "description": "yaml to xml",
   "main": "./src/index.js",
   "bin": {
-     "xtoy": "./cli.js"
-   },
+    "xtoy": "./cli.js"
+  },
   "repository": "https://github.com/s-yk/xtoy.git",
   "author": "s-yk <sonic_cave@hotmail.co.jp>",
   "license": "Apache-2.0",
   "private": true,
   "dependencies": {
+    "cac": "^6.4.2",
     "fast-xml-parser": "^3.12.13",
     "json2yaml": "^1.1.0"
   },

@@ -1,0 +1,6 @@
+<root>
+  <first>first-value</first>
+  <second>
+    <value>second-value</value>
+  </second>
+</root>
