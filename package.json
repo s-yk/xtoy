@@ -1,12 +1,12 @@
 {
-  "name": "ytox",
+  "name": "xtoy",
   "version": "1.0.0",
   "description": "yaml to xml",
   "main": "./src/index.js",
   "bin": {
-     "ytox": "./cli.js"
+     "xtoy": "./cli.js"
    },
-  "repository": "https://github.com/s-yk/ytox.git",
+  "repository": "https://github.com/s-yk/xtoy.git",
   "author": "s-yk <sonic_cave@hotmail.co.jp>",
   "license": "Apache-2.0",
   "private": true,
