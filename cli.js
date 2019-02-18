@@ -6,9 +6,13 @@ const Converter = require('./src/index.js');
 
 cli
     .command('conv <XML file>')
-    .option('--file <filename>', 'Output file name;', {
+    .option('-f, --file <filename>', 'Output file name;', {
       default: '',
     })
+    .option('-c, --case <hashkey case-type>',
+        'Change YAML hash key Case type;', {
+          default: 'no',
+        })
     .action((file, options) => {
       const converter = new Converter();
       converter.convert(file, options);
