@@ -5,6 +5,12 @@ const cli = require('cac')();
 const Converter = require('./src/index.js');
 
 cli
+    .command('')
+    .action(() => {
+      cli.outputHelp();
+    });
+
+cli
     .command('conv <XML file>')
     .option('-f, --file <filename>', 'Output file name;', {
       default: '',
